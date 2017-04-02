@@ -1,0 +1,41 @@
+.w-text-area {
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+	max-width: 650px;
+}
+
+.w-text-area textarea {
+	display: inline-block;
+	padding: 15px 20px;
+  width: calc(100% - 40px);
+  height: 180px;
+  border: none;
+	resize: none;
+  outline: none;
+	font-family: Tahoma;
+	box-shadow: 1px 2px 4px #ccc;
+}
+
+.w-text-area textarea:focus {
+	box-shadow: 1px 2px 4px #7dead4;
+}
+
+.submit-btn {
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+	padding: 10px 25px;
+	text-transform: uppercase;
+	background-color: #1abc9c;
+	border: 1px solid #1abc9c;
+	color: #fff;
+	cursor: pointer;
+	transition: background 0.5s;
+	letter-spacing: 1px;
+}
+
+.submit-btn:hover {
+	background: #4ed7bb;
+}
